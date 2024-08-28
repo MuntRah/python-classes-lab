@@ -84,7 +84,6 @@ class Game():
       
   def play_game(self):
     print("Shall we play a game?")
-    # While there is no winner or tie
     while self.winner == None and self.tie == False:
       self.render()
       self.update_board()
@@ -92,13 +91,7 @@ class Game():
       self.check_tie()
     self.render()  
     
-        # render
-        # get player input
-        # check for a winner
-        # check for a tie
-        # switch turns
-        # ...repeat until there is a winner or tie
-    # Outside the loop, render state at the end of a game    
+ 
       
     
     
